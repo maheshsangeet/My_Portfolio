@@ -1,0 +1,28 @@
+#Navbar {
+  border: 1px solid black;
+  /* position: fixed;
+  z-index: 9999; */
+  width: 60%;
+  padding:  .5rem 0;
+  /* background-color: rgb(163, 161, 161); */
+}
+#Navbar .nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;     
+  }
+#Navbar li {
+    border: 1px solid black;
+    padding: .2rem 1rem;
+    /* width: 20%; */
+    text-align: center;
+    list-style-type: none;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    font-weight: 900;  
+    letter-spacing: 3px;  
+  }
+#Navbar li a {
+    text-decoration:wavy;
+    color: aliceblue;
+  }

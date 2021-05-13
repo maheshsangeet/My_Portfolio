@@ -1,0 +1,59 @@
+#Education {
+    width: 100%;
+    height: 100vh;
+}
+#Education .heading {
+    height: 10vh;
+    background-color: gray;
+}
+#Education .course {
+    width: 90%;
+    height: 80vh;
+    position: absolute;
+    left: 5%;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+#Education .course section {
+    /* background-color: brown;  */
+    border: 1px solid black; 
+    text-align: center; 
+    padding: 30px 0;
+    transition: .5s ease;
+
+}
+#Education .course .SSLC {
+    grid-column: 1/3;
+    margin: 0 auto;
+    width: 50%;
+}
+#Education .course section:hover {
+    opacity: 0;
+}
+#Education .projects {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    opacity: 0;
+}
+#Education .projects .engg-project {
+    padding: 3rem;   
+    /* text-align: center;   */
+}
+#Education .projects .dip-project {
+    padding: 3rem;
+    height: 41.5vh;
+}
+#Education .engg:hover .engg-projects {
+    opacity: 1;
+
+}    
+
+
+
+
