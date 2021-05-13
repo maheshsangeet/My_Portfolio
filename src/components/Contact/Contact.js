@@ -13,7 +13,7 @@ const Contact = () => {
     return (
         <div>
             <div id="Contact">
-                <h1>Contact</h1>
+                {/* <h1>Contact</h1> */}
                 <div class="social-container">
                     <a className="phone" href="#" > 
                         <img src={phone} alt="phone" /> +91-8660804309</a>

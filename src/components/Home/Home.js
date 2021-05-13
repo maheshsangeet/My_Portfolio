@@ -7,7 +7,7 @@ import "./Home.css"
 const Home = () => {
     return (
         <div id="Home">
-            {/* <Navbar /> */}
+            <Navbar />
             <div className="profile-pic">
                 <img src={photo}></img>
                 {/* <img src="../../images/pp.png"></img> */}

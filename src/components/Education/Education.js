@@ -5,7 +5,7 @@ const Education = () => {
     return (
         <div>
             <div id="Education">
-                <h1 className="heading">Education</h1>
+                {/* <h1 className="heading">Education</h1> */}
                 <div className="container">
                         <div className="course">
                             <section className="engg engg-project">
@@ -30,14 +30,16 @@ const Education = () => {
                         </div>
 
                         <div className="projects">
-                                <section className="engg-project">
+                                <section className="ram engg-project">
+                                    <h1>Engineering Project</h1>
                                     <p><span>Title:</span>"Effect of Heat treatment on Mechanical properties of EN-31 Alloy steel"</p>
                                     <p><span>Objective:</span>In this project a sample of steel alloy type EN-31 is selected where various heat treatments are 
                                     carried out for improving its mechanical properties. After that heat treated samples are used for different 
                                     mechanical tests.</p>
                                 </section>
 
-                                <section className="dip-project">
+                                <section className="ram dip-project">
+                                    <h1>Diploma Project</h1>
                                     <p><span>Title:</span>" Multidirectional Vehicle with Digital communication system"</p>
                                     <p><span>Objective:</span>Whenever a person wants to turn his vehicle, he needs to turn it by taking it forward and 
                                     backward several times. This is avoided by installing a system which allows us to turn the vehicle wheel for 
