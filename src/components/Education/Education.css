@@ -1,29 +1,35 @@
 #Education {
     width: 100%;
     height: 100vh;
+    background-color: black;
+    color: #fff;
 }
 #Education .heading {
     height: 10vh;
     background-color: gray;
 }
 #Education .course {
-    width: 90%;
-    height: 80vh;
+    width: 80%;
+    height: 65vh;
     position: absolute;
     top: 20vh;
-    left: 5%;
+    left: 10%;
     /* background-color: green; */
     display: grid;
     grid-template-columns: 50% 50%;
     /* opacity: 0; */
+    z-index: 9999;
 
 }
 #Education .course section {
-    /* background-color: brown;  */
+    background-color: black; 
+    /* background-color: #fff; */
     border: 1px solid black; 
     text-align: center; 
     padding: 2rem 0;
-    transition: .5s ease;
+    transition: .6s ease;
+    margin-bottom: 2rem;
+
     
 }
 #Education .course .SSLC {
@@ -34,16 +40,23 @@
  #Education .course section:hover  {
     opacity: 0;
 
-} 
+}
+#Education .course h1 {
+    /* margin-bottom: 1rem; */
+    line-height: 2.5;
+
+}
 #Education .projects {
     position: absolute;
     top: 20vh;
-    left: 5%;
-    width: 90%;
-    background-color: blue;
+    left: 10%;
+    width: 80%;
+    /* background-color: red; */
     display: grid;
     grid-template-columns: 50% 50%;
-    opacity: 0;
+    /* opacity: 0; */
+    color: #fff;
+    z-index: 1;
     
 }
 .engg-project h1,.dip-project h1 {
@@ -53,11 +66,15 @@
 #Education .projects section {
     padding: 1rem 2rem;   
 }
-
-#Education .course section:hover  .ram {
+span {
+    padding-right: 7px;
+    color: orange;
+    font-size: 1.1rem;
+}
+/* #Education .course section:hover .projects {
     opacity: 1;
-
-}    
+} */
+   
 
 
 
