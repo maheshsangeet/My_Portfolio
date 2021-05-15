@@ -13,7 +13,7 @@ color: red;
 padding: 1rem 0 0 4rem;
 }
 #Experience .section-container {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   position: absolute;
   top: 15vh;
   left: 5%;
@@ -24,20 +24,16 @@ padding: 1rem 0 0 4rem;
 }
 section {
   /* border: 1px solid black; */
-  margin: 0  1rem  2rem 1rem;
-  padding-bottom: 5rem;
-  /* width:650px ; */
-  width: 46%;
-  height: 210px;
-  /* line-height: 1.7; */
-  perspective: 800px;
- 
+  margin: 0  1.5rem  0rem 1rem;
+  width: 47%;
+  height: 280px;
+  perspective: 800px; 
 }
 #Experience .section-container section:last-child {
   /* border: 1px solid black; */
   width: 46%;
   margin:0 auto;
-  height: 180px;
+  height: 210px;
 }
 .tag {
 width: 100%;
@@ -68,6 +64,7 @@ transition: transform 1s;
 width: 100%;
 color: #222;
 font-family:'Sacramento', cursive;
+
 }
 /* .tag-1-side.is-back:before {
 background: #e44f47;
@@ -82,20 +79,25 @@ z-index: 1;
 transform: translate3d(0, 0, 0);
 }
 
-/* .tag-1-side.is-back .tag-1-text {
-background: #e44f47;
-color: #000;
-} */
+.tag-1-side.is-back .tag-1-text {
+background: #edf5a9;
+}
 .front-side {
   padding-top: 3rem;
   font-size: 1.4rem;
   text-align: center;
-  line-height: 1;
 }
+
 .back-side {
   font-size: 1.2rem;
+  padding-left: 1.4rem;
+  padding-top: .8rem;
 
 }
-.marg-bottom {
-  margin-bottom: -1.4rem;
+ul p{
+  margin-bottom: 5px;
+  margin-top: -8px;
+}
+ul li{
+  line-height: 2;
 }
