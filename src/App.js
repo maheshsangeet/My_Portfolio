@@ -9,9 +9,9 @@ import Skills from './components/Skills/Skills';
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+      <Home />
       {/* <Experience /> */}
-      <Skills />
+      {/* <Skills /> */}
       {/* <Education /> */}
       {/* <Contact /> */}
     </div>

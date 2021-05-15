@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "../Navbar/Navbar"
-import photo from "../../images/pp.png"
+import photo from "../../images/pic.png"
 import "./Home.css"
 
 
@@ -10,7 +10,6 @@ const Home = () => {
             <Navbar />
             <div className="profile-pic">
                 <img src={photo}></img>
-                {/* <img src="../../images/pp.png"></img> */}
             </div>
 
             <div className="container">

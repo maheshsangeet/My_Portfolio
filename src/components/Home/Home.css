@@ -12,7 +12,7 @@
     width: 40%;
     position: absolute;
     right: 0;
-    top: -158px;
+    top: -164px;
   }
 #Home .profile-pic img {
     border: 1px solid black;
@@ -21,7 +21,6 @@
     height: 122vh;
   }
 #Home .container {
-  color: aliceblue;
   position: absolute;
   top: 20%;
   left: 10%;
@@ -34,7 +33,7 @@
 
   }
 #Home .container h2 .line:last-child {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 0.3rem;
     margin-left: 1.5rem;
   }
@@ -43,7 +42,8 @@
     /* border: 1px solid white; */
     margin-top: 1rem;
     margin-left: 5rem;
-    width: 100%;
+    /* width: 50%; */
+    width: 680px;
   } 
 #Home .container .introduction .name h1 {
   font-size: 5rem;
@@ -57,8 +57,12 @@
 }
 #Home .container .introduction  .detail-introduction {
     display: none;
-    word-spacing: 10px;
-    width: 45%;
+    word-spacing: 8px;
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+
   }
 #Home .container .introduction:hover .name {
     display: none;
@@ -66,6 +70,3 @@
 #Home .container .introduction:hover .detail-introduction {
     display: block;
   }
-  
-  
-  
