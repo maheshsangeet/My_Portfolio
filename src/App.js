@@ -12,8 +12,8 @@ function App() {
       {/* <Home /> */}
       {/* <Experience /> */}
       {/* <Skills /> */}
-      {/* <Education /> */}
-      <Contact />
+      <Education />
+      {/* <Contact /> */}
     </div>
   );
 }
