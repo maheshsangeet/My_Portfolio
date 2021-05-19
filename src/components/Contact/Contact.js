@@ -7,49 +7,49 @@ import  { IconContext }  from "react-icons";
 const Contact = () => {
     return (
         <IconContext.Provider   value={{ size:"2.5rem" }} >
-        <div>
+
             <div id="Contact">
-                {/* <h1>Contact</h1> */}
+                <div className="heading">
+                    <h1>Contact</h1>
+                </div>
                 <div class="social-container">
-                    <a className="phone" href="#" > 
+                    <a className="phone" > 
                     <FaPhoneAlt /> 
-                    <strong> +91-8660804309 </strong>
+                    <span> +91-8660804309 </span>
                     </a>
 
                     <a className="gmail" href="mailto:maheshsangeet0@gmail.com" target="_blank">
                     <FaEnvelope /> 
-                    <strong> maheshsangeet0@gmail.com </strong> 
+                    <span> maheshsangeet0@gmail.com </span> 
                     </a>
 
                     <a className="codepen" href="https://codepen.io/mahesh-sangeet-m-h-" target="_blank" >
                     <FaCodepen />
-                    <strong>  https://codepen.io/mahesh-sangeet-m-h- </strong> 
+                    <span>  https://codepen.io/mahesh-sangeet-m-h- </span> 
                     </a>
 
                     <a className="github" href="https://github.com/maheshsangeet" target="_blank" >
                     <FaGithub />
-                    <strong>  https://github.com/maheshsangeet </strong> 
+                    <span>  https://github.com/maheshsangeet </span> 
                     </a>
 
                     <a className="linkedin" href="https://www.linkedin.com/in/mahesh-sangeet/" target="_blank" >
                     <FaLinkedin />
-                    <strong> www.linkedin.com/in/mahesh-sangeet/ </strong> 
+                    <span> www.linkedin.com/in/mahesh-sangeet/ </span> 
                     </a>
 
                     <a className="resume" href="Mahesh_Sangeet_Resume.pdf" target="_blank" >
                     <FaAddressCard />
-                    <strong> Resume </strong> 
+                    <span> Resume </span> 
                     </a>
 
-                    <a className="place" href="#"  >
+                    <a className="place">
                     <FaMapMarkerAlt />
-                    <strong>  Hubli,Karnatak </strong> 
+                    <span>  Hubli,Karnatak </span> 
                     </a>
 
                 </div>
             </div>
-        </div>
-
         </IconContext.Provider>
     )
 }

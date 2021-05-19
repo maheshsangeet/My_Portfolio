@@ -5,25 +5,28 @@ const Education = () => {
     return (
         <div>
             <div id="Education">
-                {/* <h1 className="heading">Education</h1> */}
+                <div className="heading"> 
+                    <h1>Education</h1>
+                </div>
                 <div className="container">
-                        <div className="course">
+                        <div className="course ">
                             <section className="engg-project">
-                                    <h1>Bachelor Of Engineering &nbsp; 2015-2018</h1>
+                                    <h1>Bachelor Of Engineering 2015-2018</h1>
                                     <p>Mechanical Engineering</p>
                                     <p>Rural Engineering College,Hulkoti</p>
                                     <p> Aggregate of 62.46%</p>
                             </section>
 
                             <section className="diploma">
-                                    <h1>Diploma &nbsp; 2012-2015</h1>
+                                    <h1>Diploma 2012-2015</h1>
                                     <p>Mechanical Engineering</p>
                                     <p>Govt Polytechnic,Hubli</p>
                                     <p> Aggregate of 67.66%</p>
                             </section>
 
                             <section className="SSLC">
-                                    <h1>SSLC &nbsp; 2012</h1>
+                            {/* &nbsp;   */}
+                                    <h1>SSLC 2012</h1> 
                                     <p>Lamington High School for Boys,Hubli</p>
                                     <p> Aggregate of 77.76%</p>
                             </section>
@@ -36,6 +39,7 @@ const Education = () => {
                                     <p><span>Objective:</span>In this project a sample of steel alloy type EN-31 is selected where various heat treatments are 
                                     carried out for improving its mechanical properties. After that heat treated samples are used for different 
                                     mechanical tests.</p>
+
                                 </section>
 
                                 <section className="dip-project">

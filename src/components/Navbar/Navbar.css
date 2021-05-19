@@ -1,28 +1,37 @@
 #Navbar {
-  border: 1px solid black;
-  /* position: fixed;
-  z-index: 9999; */
-  width: 60%;
-  padding:  .5rem 0;
-  /* background-color: rgb(163, 161, 161); */
+  position: fixed;
+  left: 0px;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: black;
 }
 #Navbar .nav-list {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;     
+    width: 50%; 
+    margin: 1.2rem 0 .9rem 5rem; 
   }
 #Navbar li {
-    border: 1px solid black;
     padding: .2rem 1rem;
-    /* width: 20%; */
-    text-align: center;
     list-style-type: none;
     border-radius: 50px;
-    font-size: 1.3rem;
-    font-weight: 900;  
-    letter-spacing: 3px;  
+    font-size: 1rem;
+    letter-spacing: 2px;  
   }
 #Navbar li a {
-    text-decoration:wavy;
-    color: #fff;
+    color: rgb(229,229,229);
+    font-family:'Sacramento', cursive;
+
+  }
+  .logo img{
+    width: 20px;
+  }
+
+  nav ul li.active {
+    background-color: crimson;
+    transition: 0.3s ease background-color;
+  }
+  nav ul li.active Link {
+    color: rgb(255, 255, 255);
   }

@@ -4,7 +4,9 @@ import "./Experience.css"
 const Experience = () => {
   return (
     <div id="Experience">
-            <h1 className="heading">Experience</h1>
+            <div className="heading">
+                <h1>Experience</h1>
+            </div>
             <div className="section-container">
 
                 <section className="exp1">
@@ -14,18 +16,18 @@ const Experience = () => {
                             <div class="tag-side  tag-1-side">
                                 <div class="tag-text tag-1-text front-side">
                                     <h1>Sathvik softech </h1>
-                                    <h4>(Web Development Intern)</h4>
+                                    <p>(Web Development Intern)</p>
                                 </div>
                             </div>
 
                             <div class="tag-side tag-1-side is-back">
                                 <div class="tag-text tag-1-text back-side">
                                     <ul clasName="back">
-                                        <li className="marg-bottom"><strong>Portfolio</strong></li>
+                                        <li className="marg-bottom"><span>Portfolio</span></li>
                                         <p>Design and developed my Portfolio by using React</p>
-                                        <li className="marg-bottom"><strong>Rock,Paper,Scissor Game</strong></li>
+                                        <li className="marg-bottom"><span>Rock,Paper,Scissor Game</span></li>
                                         <p>Design And developed game by using HTML, CSS& JavaScript technology</p>
-                                        <li className="marg-bottom"><strong>Number Guessing Game</strong></li>
+                                        <li className="marg-bottom"><span>Number Guessing Game</span></li>
                                         <p>A random number will generate we have to guess that number is odd or even. Design And developed game by using HTML, CSS & JavaScript technology.</p>
                                     </ul>
                                 </div>
@@ -41,7 +43,7 @@ const Experience = () => {
                             <div class="tag-side  tag-1-side ">
                                 <div class="tag-text tag-1-text front-side">
                                     <h1>Trillium Flow Technology</h1>
-                                    <h4>(Engineer Trainee)</h4>
+                                    <p>(Engineer Trainee)</p>
                                 </div>
                             </div>
 
@@ -66,7 +68,7 @@ const Experience = () => {
                             <div class="tag-side  tag-1-side">
                                 <div class="tag-text tag-1-text front-side">
                                     <h1>Sri Guru Enterprises</h1>
-                                    <h4>(Trainee)</h4>
+                                    <p>(Trainee)</p>
                                 </div>
                             </div>
 
