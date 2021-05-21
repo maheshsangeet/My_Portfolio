@@ -12,9 +12,8 @@
     left: 0;
     transform: translateY(-50%);
 }
+
 #Contact h1 {
-    /* width: 3rem; */
-    /* background-color: rgba(236, 228, 228, 0.253); */
     color: rgba(156, 149, 149, 0.192);
     writing-mode: vertical-lr;
     text-orientation: upright;
@@ -23,12 +22,14 @@
 #Contact .social-container {
     width: 80%;
     position: absolute;
-    top: 30vh;
+    top: 25vh;
     left: 10%;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+
 }
+
 #Contact a {
     width: 50%;
     color: black;
@@ -38,13 +39,40 @@
     align-items: center;
     padding: 1.5rem 0;
     color: rgb(229,229,229);
-
     font-family:'Sacramento', cursive;
     transition: color .3s;
+    animation: 2s ease-out 0s 1 slideInLeft;
+
 }
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
 #Contact span {
     margin-left: 1rem;
 }
 #Contact a:hover {
     color: rgb(179, 184, 184);
 }
+#Contact .slid-right {
+    animation: 2s ease-out 0s 1 slideInRight;
+}
+@keyframes slideInRight {
+    0% {
+      transform: translateX(150%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+

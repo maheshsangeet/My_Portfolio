@@ -17,13 +17,31 @@
     list-style-type: none;
     border-radius: 50px;
     font-size: 1rem;
-    letter-spacing: 2px;  
+    letter-spacing: 2px; 
+    
+    display:inline-block; 
+    margin:0; 
   }
-#Navbar li a {
+
+  #Navbar li:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    margin: auto;                     /*   try without this, starts from left to right */
+    background: rgb(209, 137, 3);
+    transition: width .3s;
+  }
+
+  #Navbar li:hover::after {  
+    width: 100%;
+  }
+  #Navbar li a {
     color: rgb(229,229,229);
     font-family:'Sacramento', cursive;
-
   }
+
+
   .logo img{
     width: 20px;
   }

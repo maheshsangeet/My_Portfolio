@@ -2,11 +2,8 @@
     width: 100%;
     height: 100vh;
     background-color: black;  
-    /* font-family: 'Arvo', serif; */
     position: relative;
     font-family:'Sacramento', cursive;
-
- 
 }
 #Skills .heading {
   position: absolute;
@@ -15,8 +12,6 @@
   transform: translateY(-50%);
 }
 #Skills .heading h1{
-  /* width: 3rem; */
-   /* background-color: rgba(236, 228, 228, 0.253); */
   color: rgba(156, 149, 149, 0.192);
   writing-mode: vertical-lr;
   text-orientation: upright;
@@ -33,8 +28,8 @@
 }
 #Skills .container section {
   position: relative;
-  width: 40%;
-  height: 290px;
+  width: 38%;
+  height: 250px;
   background: inherit;
   overflow: hidden;
   color: aliceblue;
@@ -47,34 +42,33 @@
 	  
 }
 #Skills .container section h1{
-    padding: .5rem 0;  
-    color: rgb(226, 225, 225);
-  
+    padding: 1.5rem 0 .5rem 0;  
+    color: rgb(197, 196, 196);
 }
-
 #Skills .container section ul {
     margin-left: .5rem;
     font-size: 1.2rem;
     color: rgb(211, 210, 210);
-
 }
 
 #Skills .container section:first-child {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     transform: rotate(-2deg);
+
 }
 
 #Skills .container section:nth-child(2) {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     transform: rotate(1.5deg);
 }
 #Skills .container section:nth-child(3) {
-    margin-left: 8rem;
+    margin-left: 6rem;
     transform: rotate(2deg);
+    height: 270px;
 }
 #Skills .container section:last-child {
     transform: rotate(-1deg);
-
+    height: 270px;
 }
 ul li {
   line-height: 1.7;

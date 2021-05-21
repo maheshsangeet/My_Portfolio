@@ -9,7 +9,7 @@ const Skills = () => {
             </div>
             <div className="container">
                 <section className="programming-skills">
-                    <div class="line"></div>
+                    {/* <div class="line"></div> */}
                     <h1>Web Technologies</h1>
                     <ul>
                         <li>HTML</li>
@@ -20,17 +20,17 @@ const Skills = () => {
                 </section>
 
                 <section className="FrameWorks/Libraries">
-                    <div class="line"></div>
+                    {/* <div class="line"></div> */}
                     <h1>FrameWorks/Libraries</h1>
                     <ul>
-                        <li>Tailwind CSS</li>
                         <li>Bootstarp</li>
+                        <li>Tailwind CSS</li>
                         <li>React.js</li>
                     </ul>
                 </section>
 
                 <section className="Others">
-                    <div class="line"></div>
+                    {/* <div class="line"></div> */}
                     <h1>Others</h1>
                     <ul >
                         <li>Git hub</li>
@@ -43,10 +43,9 @@ const Skills = () => {
                 </section>
 
                 <section className="personal-skills">
-                    <div class="line"></div>
+                    {/* <div class="line"></div> */}
                     <h1>Personal-skills</h1>
                     <ul>
-                        <li>Positive in nature</li>
                         <li>Confident and Determined</li>
                         <li>Strong time management skills</li>
                         <li>Disciplined, Punctuality</li>

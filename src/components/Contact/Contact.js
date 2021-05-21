@@ -13,12 +13,12 @@ const Contact = () => {
                     <h1>Contact</h1>
                 </div>
                 <div class="social-container">
-                    <a className="phone" > 
+                    <a className="phone slid-right"> 
                     <FaPhoneAlt /> 
                     <span> +91-8660804309 </span>
                     </a>
 
-                    <a className="gmail" href="mailto:maheshsangeet0@gmail.com" target="_blank">
+                    <a className="gmail slid-right" href="mailto:maheshsangeet0@gmail.com" target="_blank">
                     <FaEnvelope /> 
                     <span> maheshsangeet0@gmail.com </span> 
                     </a>
@@ -33,12 +33,12 @@ const Contact = () => {
                     <span>  https://github.com/maheshsangeet </span> 
                     </a>
 
-                    <a className="linkedin" href="https://www.linkedin.com/in/mahesh-sangeet/" target="_blank" >
+                    <a className="linkedin slid-right" href="https://www.linkedin.com/in/mahesh-sangeet/" target="_blank" >
                     <FaLinkedin />
                     <span> www.linkedin.com/in/mahesh-sangeet/ </span> 
                     </a>
 
-                    <a className="resume" href="Mahesh_Sangeet_Resume.pdf" target="_blank" >
+                    <a className="resume slid-right" href="Mahesh_Sangeet_Resume.pdf" target="_blank" >
                     <FaAddressCard />
                     <span> Resume </span> 
                     </a>
