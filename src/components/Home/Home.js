@@ -1,7 +1,9 @@
 import React from "react"
 import Navbar from "../Navbar/Navbar"
-import photo from "../../images/pic.png"
+import photo from "../../images/pic1.png"
 import "./Home.css"
+import {Link} from 'react-scroll'
+
 
 
 const Home = () => {
@@ -14,8 +16,8 @@ const Home = () => {
 
             <div className="container">
                 <h2>
-                    <span className="line">Hi,</span>
-                    <span className="line">I am</span>
+                    <span className="line" >Hi,</span>
+                    <span className="line" >I am</span>
                 </h2>
             
                 <div className="introduction">
@@ -28,7 +30,9 @@ const Home = () => {
                             <span>s</span>
                             <span>h</span>
                         </h1>
-                        <h3>Front end developer</h3>
+                        <h3 data-aos="fade-up" data-aos-duration="3000">
+                            Front end developer
+                        </h3>
                     </div>
                     <div className="detail-introduction">
                         <p>Mahesh Sangeet, a Mechanical Engineering graduate from Hulkoti, Gadag. Started as a Trainee at Sri Guru Enterprises, Hubli. After that joined to Trillium Flow Technology, Hubli. Carried out project on “Productivity Improvement of 
@@ -37,8 +41,14 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
+
+                
+
             </div>
             
+            <div class="arrow-container">
+            <Link to ='Experience' smooth = {true} duration = {1000}><div class="arrow-down"></div></Link>
+            </div>
         </div>
     )
 }

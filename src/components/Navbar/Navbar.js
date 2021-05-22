@@ -9,9 +9,8 @@ const Navbar = () => {
     return (
             <nav id="Navbar">
 
-                {/* <Link to = 'Home' className = 'logo' smooth = {true} duration = {2000}>
-                    <img src = {logo} alt ='logo' />    
-                </Link> */}
+                <Link to = 'Home' className="logo" smooth = {true} duration = {2000}> Mahi </Link>
+
                 <ul className = "nav-list" >
                     <li className="Home  active"><Link to ='Home'  smooth = {true} duration = {1000}>About</Link></li>
                     <li className="Experience"><Link to ='Experience' smooth = {true} duration = {1000}>Experience</Link></li>

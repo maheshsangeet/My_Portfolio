@@ -21,7 +21,7 @@
   position: absolute;  
   top: 14%;
   left: 15%;
-  width: 70%;
+  width: 75%;                /*width:70%;*/
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
@@ -32,23 +32,21 @@
   height: 250px;
   background: inherit;
   overflow: hidden;
-  color: aliceblue;
   padding-left: 2rem;
   border-radius: 5px;
   margin-right: 3rem;
-  /* box-shadow: 2px 2px 20px 1px #4e4e4e; */
   box-shadow: 2px 2px 20px 1px #252525;
   border: 1px solid rgb(19, 43, 43);
 	  
 }
 #Skills .container section h1{
     padding: 1.5rem 0 .5rem 0;  
-    color: rgb(197, 196, 196);
+    color: rgb(216, 215, 215);
 }
 #Skills .container section ul {
     margin-left: .5rem;
     font-size: 1.2rem;
-    color: rgb(211, 210, 210);
+    color: rgb(206, 206, 206);
 }
 
 #Skills .container section:first-child {

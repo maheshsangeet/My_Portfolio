@@ -42,21 +42,6 @@
     margin-left: 1rem;
 
 }
-#Education .slide-top {
-    animation: 1s ease-out 0s 1 slideInTop;
-
-}
-@keyframes slideInTop {
-    0% {
-      transform: translateY(-50%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-
-    }
-  }
 #Education .course section p{
     font-size: 18px;
 }
@@ -67,25 +52,14 @@
     width: 50%;
     height: 240px;
     margin-top: 3rem;
-    animation: 1s ease-out 0s 1 slideInBottom;
 }
-@keyframes slideInBottom {
-    0% {
-      transform: translateY(150%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-
-    }
-  }
  #Education .course section:hover  {
     opacity: 0;
 }
 #Education .course h1 {
     line-height: 2.5;
     color: rgb(206, 206, 206);
+
 }
 #Education .projects {
     position: absolute;
@@ -100,8 +74,7 @@
 }
 .engg-project h1,.dip-project h1 {
     line-height: 2;
-    color: rgb(206, 206, 206);
-
+    color: rgb(229,229,229);
 }
 
 #Education .projects section {
@@ -124,5 +97,6 @@
 #Education .container p {
     line-height: 1.5;
     color: rgb(187, 186, 186);
+
     
 }

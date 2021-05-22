@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 #Navbar {
   position: fixed;
   left: 0px;
   top: 0;
   z-index: 9999;
   width: 100%;
-  background-color: black;
+  background: linear-gradient(to bottom right, #000000, #070707);
+  box-shadow: 10px 0 20px 10px rgb(10, 10, 10);
+
 }
 #Navbar .nav-list {
     display: flex;
@@ -42,14 +45,31 @@
   }
 
 
-  .logo img{
-    width: 20px;
+  #Navbar .logo {
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin: 1.5rem 4rem .5rem 0; 
+    font-family: 'Cedarville Cursive', cursive;
+    color: rgb(229,229,229);
+    color: orange;
+    font-size: 1.1rem;
+    cursor: pointer;
+    animation: bounce 2s  infinite linear;
   }
-
-  nav ul li.active {
+  @keyframes bounce {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+  }
+  
+  /* #Navbar ul li.active {
     background-color: crimson;
     transition: 0.3s ease background-color;
-  }
-  nav ul li.active Link {
-    color: rgb(255, 255, 255);
+  } */
+
+  @media(max-width:600px) {
+    body {
+      background-color: lightblue;
+    }
   }

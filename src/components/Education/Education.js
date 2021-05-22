@@ -9,23 +9,22 @@ const Education = () => {
                     <h1>Education</h1>
                 </div>
                 <div className="container">
-                        <div className="course ">
-                            <section className="engg slide-top">
+                        <div className="course">
+                            <section className="engg slide-top" data-aos="fade-left">
                                     <h1>Bachelor Of Engineering 2015-2018</h1>
                                     <p>Mechanical Engineering</p>
                                     <p>Rural Engineering College,Hulkoti</p>
                                     <p> Aggregate of 62.46%</p>
                             </section>
 
-                            <section className="diploma slide-top">
+                            <section className="diploma slide-top" data-aos="fade-right">
                                     <h1>Diploma 2012-2015</h1>
                                     <p>Mechanical Engineering</p>
                                     <p>Govt Polytechnic,Hubli</p>
                                     <p> Aggregate of 67.66%</p>
                             </section>
 
-                            <section className="SSLC">
-                            {/* &nbsp;   */}
+                            <section className="SSLC" data-aos="fade-down">
                                     <h1>SSLC 2012</h1> 
                                     <p>Lamington High School for Boys,Hubli</p>
                                     <p> Aggregate of 77.76%</p>
@@ -42,7 +41,7 @@ const Education = () => {
 
                                 </section>
 
-                                <section className="dip-project slide-top">
+                                <section className="dip-project slide-top" >
                                     <h1>Diploma Project</h1>
                                     <p><span>Title:</span>"Multidirectional Vehicle with Digital communication system"</p>
                                     <p><span>Objective:</span>Whenever a person wants to turn his vehicle, he needs to turn it by taking it forward and 

@@ -25,7 +25,6 @@
   top: 30vh;
   left: 10%;
   font-family:'Sacramento', cursive;
-
 }
 #Home .container h2 {
     display: inline-block;
@@ -119,3 +118,38 @@
 #Home .container .introduction:hover .detail-introduction {
   display: block;
 }
+
+
+#Home .arrow-container {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  cursor: pointer;
+  height: 20px;
+  animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+#Home .arrow-down {
+  height: 10px;
+  background: rgb(20, 20, 20);
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+  border-radius: 5px;
+}
+#Home .arrow-down:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 100%;
+  border-radius: 5px;
+  background: rgb(20, 20, 20);
+  transform: rotate(-90deg);
+  transform-origin: 0% 100%;
+}
+@keyframes arrow-bounce {
+    50% {transform: translateY(-15px);}
+}
+    

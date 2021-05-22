@@ -7,8 +7,8 @@ const Skills = () => {
             <div className="heading">
                 <h1>Skills</h1>
             </div>
-            <div className="container">
-                <section className="programming-skills">
+            <div className="container" data-aos="zoom-in">
+                <section className="programming-skills" data-aos="zoom-in">
                     {/* <div class="line"></div> */}
                     <h1>Web Technologies</h1>
                     <ul>
@@ -19,7 +19,7 @@ const Skills = () => {
                     </ul>
                 </section>
 
-                <section className="FrameWorks/Libraries">
+                <section className="FrameWorks/Libraries" data-aos="zoom-in">
                     {/* <div class="line"></div> */}
                     <h1>FrameWorks/Libraries</h1>
                     <ul>
@@ -29,7 +29,7 @@ const Skills = () => {
                     </ul>
                 </section>
 
-                <section className="Others">
+                <section className="Others" data-aos="zoom-in">
                     {/* <div class="line"></div> */}
                     <h1>Others</h1>
                     <ul >
@@ -42,7 +42,7 @@ const Skills = () => {
                     </ul>
                 </section>
 
-                <section className="personal-skills">
+                <section className="personal-skills" data-aos="zoom-in">
                     {/* <div class="line"></div> */}
                     <h1>Personal-skills</h1>
                     <ul>

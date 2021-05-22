@@ -8,8 +8,7 @@ const Experience = () => {
                 <h1>Experience</h1>
             </div>
             <div className="section-container">
-
-                <section className="exp1">
+                <section className="exp1"    data-aos="fade-down-right">
                     <div class="tag-container">
                         <div class="tag">
 
@@ -23,11 +22,11 @@ const Experience = () => {
                             <div class="tag-side tag-1-side is-back">
                                 <div class="tag-text tag-1-text back-side">
                                     <ul clasName="back">
-                                        <li className="marg-bottom"><span>Portfolio</span></li>
+                                        <li><span>Portfolio</span></li>
                                         <p>Design and developed my Portfolio by using React</p>
-                                        <li className="marg-bottom"><span>Rock,Paper,Scissor Game</span></li>
+                                        <li><span>Rock,Paper,Scissor Game</span></li>
                                         <p>Design And developed game by using HTML, CSS& JavaScript technology</p>
-                                        <li className="marg-bottom"><span>Number Guessing Game</span></li>
+                                        <li><span>Number Guessing Game</span></li>
                                         <p>A random number will generate we have to guess that number is odd or even. Design And developed game by using HTML, CSS & JavaScript technology.</p>
                                     </ul>
                                 </div>
@@ -36,7 +35,7 @@ const Experience = () => {
                     </div>
                 </section>
 
-                <section className="exp2">
+                <section className="exp2"  data-aos="fade-down-left">
                     <div class="tag-container">
                         <div class="tag">
 
@@ -61,7 +60,7 @@ const Experience = () => {
                     </div>
                 </section>
 
-                <section className="exp3">
+                <section className="exp3" data-aos="fade-down">
                     <div class="tag-container">
                         <div class="tag">
 
