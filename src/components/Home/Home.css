@@ -18,7 +18,7 @@
 #Home .profile-pic img {
     width: 100%;
     opacity: .8;
-    height: 121vh;
+    height: 120vh;
   }
 #Home .container {
   position: absolute;
@@ -38,9 +38,9 @@
   }
   
 #Home .container .introduction {
-    margin-top: 1rem;
-    margin-left: 5rem;
-    width: 760px;
+    margin: 1rem 0 0 5rem;
+    /* width: 760px; */
+    width: 90%;
   } 
 #Home .container .introduction .name h1 {
   font-size: 5rem;
@@ -59,6 +59,8 @@
   display: inline-block;
   animation: move 3s ease-in-out ;
 }
+
+
 
 @keyframes move {
   0% {
@@ -106,7 +108,7 @@
 #Home .container .introduction  .detail-introduction {
   display: none;
   word-spacing: 7px;
-  width: 100%;
+  width: 61%;
   padding: 1rem 0 0 1rem;
   font-size: 1.1rem;
   color: rgb(189, 188, 188);
@@ -152,4 +154,43 @@
 @keyframes arrow-bounce {
     50% {transform: translateY(-15px);}
 }
-    
+ 
+
+      /* Responsive design */
+
+  @media screen and (max-width: 600px) {
+    #Home .profile-pic {
+      width: 55%;
+    }
+    #Home .container {
+      position: absolute;
+      top: 20vh;
+      left: 2%;
+    }
+    #Home .container h2 {
+      font-size: medium;
+    }
+    #Home .container h2 .line:last-child {
+      margin-left: 1.5rem;
+    }
+    #Home .container .introduction {
+      margin: 2rem 0 0 3rem;
+    }
+    #Home .container .introduction .name h1 {
+      font-size: 4.5rem;
+      letter-spacing: 1px;
+    }
+    #Home .container .introduction .name h3 {
+      letter-spacing: 1px;
+    }
+    #Home .container .introduction  .detail-introduction {
+      word-spacing: 1px;
+      width: 98%;
+      padding: 0;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+    #Home .arrow-down {
+      height: 5px;
+    }
+  }

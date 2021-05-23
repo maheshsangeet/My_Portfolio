@@ -56,7 +56,7 @@
  #Education .course section:hover  {
     opacity: 0;
 }
-#Education .course h1 {
+#Education .course section h1 {
     line-height: 2.5;
     color: rgb(206, 206, 206);
 
@@ -75,6 +75,7 @@
 .engg-project h1,.dip-project h1 {
     line-height: 2;
     color: rgb(229,229,229);
+    font-weight: lighter;
 }
 
 #Education .projects section {
@@ -82,13 +83,8 @@
     height: 270px;
     padding: .5rem .8rem;  
     background-color: rgb(7, 7, 7);
-    font-size: 1.1rem;
     margin-left: 1rem;
 }
-#Education .projects section h1{
-    font-weight: lighter;
-} 
-
 .projects span {
     padding-right: 7px;
     color: orange;
@@ -96,7 +92,75 @@
 }
 #Education .container p {
     line-height: 1.5;
-    color: rgb(187, 186, 186);
+    font-size: 1.1rem;
+    color: rgb(187, 186, 186);   
+}
 
-    
+
+    /* Responsive design */
+
+@media screen and (width:600px) {
+    #Education .heading h1 {
+        letter-spacing: -6px;
+        font-size:large;
+    }
+    #Education .course {
+        width: 82%;
+        height: 82vh;
+        position: absolute;
+        top: 15vh;
+        left: 10%;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+    }
+    #Education .course section {
+        width: 100%;    
+        height: 240px;
+        margin: 0 0 1.2rem 0;
+    }
+    #Education .course .SSLC {
+        margin: 0;
+        width: 100%;
+        height: 240px;
+    }
+    #Education .course section h1{
+        font-size: large;
+        line-height: 0;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+    }
+    #Education .course section p{
+        font-size: 14px;
+    }
+    #Education .projects {
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    #Education .projects section {
+        width: 100%;
+        height: 170px;
+        margin: 0 0 2.3rem 0;
+        padding: 0;
+
+    }
+    .engg-project h1, .dip-project h1 {
+        font-size: large;
+    }
+    /* .engg-project {
+        background-color: red;
+    }
+    .dip-project {
+        background-color: blue;
+    } */
+    #Education .container p {
+        line-height: 1.5;
+        font-size: .9rem;
+    }
+    .projects span {
+        font-size: 1rem;
+    }
 }

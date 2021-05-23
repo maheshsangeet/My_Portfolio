@@ -6,7 +6,7 @@ import  { IconContext }  from "react-icons";
 
 const Contact = () => {
     return (
-        <IconContext.Provider   value={{ size:"2.2rem" }} >
+        <IconContext.Provider   value={{ size:"2.2rem", className:"icons"}} >
 
             <div id="Contact">
                 <div className="heading">
@@ -14,11 +14,7 @@ const Contact = () => {
                 </div>
 
                 <div class="social-container" data-aos="flip-up" >
-                    <a className="phone" > 
-                    <FaPhoneAlt  />                {/* <FaPhoneAlt className= "react-phone" />  */}  {/* can do over ride here*/ }
-                    <span> +91-8660804309 </span>
-                    </a>
-
+                    
                     <a className="gmail"  
                         href="mailto:maheshsangeet0@gmail.com" 
                         target="_blank"
@@ -28,12 +24,9 @@ const Contact = () => {
                     <span> maheshsangeet0@gmail.com </span> 
                     </a>
 
-                    <a className="codepen" 
-                        href="https://codepen.io/mahesh-sangeet-m-h-" 
-                        target="_blank" 
-                    >
-                    <FaCodepen  />
-                    <span> https://codepen.io/mahesh-sangeet-m-h- </span> 
+                    <a className="phone" > 
+                    <FaPhoneAlt  />                {/* <FaPhoneAlt className= "react-phone" />  */}  {/* can do over ride here*/ }
+                    <span> +91-8660804309 </span>
                     </a>
 
                     <a className="github" 
@@ -51,6 +44,15 @@ const Contact = () => {
                     <FaLinkedin  />
                     <span> www.linkedin.com/in/mahesh-sangeet/ </span> 
                     </a>
+
+
+                    <a className="codepen" 
+                        href="https://codepen.io/mahesh-sangeet-m-h-" 
+                        target="_blank" 
+                    >
+                    <FaCodepen  />
+                    <span> https://codepen.io/mahesh-sangeet-m-h- </span> 
+                    </a>                    
 
                     <a className="resume" 
                         href="Mahesh_Sangeet_Resume.pdf" 

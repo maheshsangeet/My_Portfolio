@@ -10,14 +10,14 @@ const Education = () => {
                 </div>
                 <div className="container">
                         <div className="course">
-                            <section className="engg slide-top" data-aos="fade-left">
+                            <section className="engg" data-aos="fade-left">
                                     <h1>Bachelor Of Engineering 2015-2018</h1>
                                     <p>Mechanical Engineering</p>
                                     <p>Rural Engineering College,Hulkoti</p>
                                     <p> Aggregate of 62.46%</p>
                             </section>
 
-                            <section className="diploma slide-top" data-aos="fade-right">
+                            <section className="diploma" data-aos="fade-right">
                                     <h1>Diploma 2012-2015</h1>
                                     <p>Mechanical Engineering</p>
                                     <p>Govt Polytechnic,Hubli</p>

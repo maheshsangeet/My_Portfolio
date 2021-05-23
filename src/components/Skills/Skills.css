@@ -28,7 +28,7 @@
 }
 #Skills .container section {
   position: relative;
-  width: 38%;
+  width: 35%;
   height: 250px;
   background: inherit;
   overflow: hidden;
@@ -52,7 +52,6 @@
 #Skills .container section:first-child {
     margin-bottom: 2.5rem;
     transform: rotate(-2deg);
-
 }
 
 #Skills .container section:nth-child(2) {
@@ -101,5 +100,44 @@ ul li {
       transform: translateX(0);
     }
   }
+
+
+     /* Responsive design */
+  @media screen and (width:600px) {
+    #Skills .heading h1 {
+      letter-spacing: -6px;
+      font-size:large;
+    }
+    #Skills .container {
+      position: absolute;  
+      top: 15%;
+      left: 7%;
+      width: 90%; 
+    }
+    #Skills .container section {
+      position: relative;
+      width: 46%;
+      height: 240px;
+      margin-right: 0;
+      margin: 0 0 0 1rem;
+    }
+    #Skills .container section h1{
+      padding: 1.5rem 0 .2rem 0;
+      margin-left: -1.1rem;  
+      font-size:large;
+  }
+    #Skills .container section ul {
+      font-size: 1rem;
+  }
+  #Skills .container section:nth-child(3) {
+    margin-left: -.5rem;
+    transform: rotate(2deg);
+    height: 270px;
+  }#Skills .container section:last-child {
+    transform: rotate(-1deg);
+    height: 270px;
+    width: 48%;
+  }
+}
 
 

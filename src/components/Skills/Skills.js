@@ -44,10 +44,10 @@ const Skills = () => {
 
                 <section className="personal-skills" data-aos="zoom-in">
                     {/* <div class="line"></div> */}
-                    <h1>Personal-skills</h1>
+                    <h1>Personal skills</h1>
                     <ul>
                         <li>Confident and Determined</li>
-                        <li>Strong time management skills</li>
+                        <li>Strong time management skill </li>
                         <li>Disciplined, Punctuality</li>
                         <li>Dedication towards work</li>
                         <li>Team player</li>
