@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
-import {FaPhoneAlt ,FaEnvelope,FaGoogle,FaCodepen,FaGithub, FaLinkedin, FaAddressCard, FaMapMarkerAlt} from "react-icons/fa";
+import pdf from "../../Images/Mahesh_Sangeet_Resume.pdf"
+import {FaPhoneAlt ,FaGoogle,FaCodepen,FaGithub, FaLinkedin, FaAddressCard, FaMapMarkerAlt} from "react-icons/fa";
 import  { IconContext }  from "react-icons";
  
 
@@ -20,7 +21,6 @@ const Contact = () => {
                         target="_blank"
                         className= "react-phone"
                     >
-                    {/* <FaEnvelope />  */}
                     <FaGoogle />
                     <span> maheshsangeet0@gmail.com </span> 
                     </a>
@@ -56,7 +56,7 @@ const Contact = () => {
                     </a>                    
 
                     <a className="resume" 
-                        href="Mahesh_Sangeet_Resume.pdf" 
+                        href={pdf} 
                         target="_blank" 
                     >
                     <FaAddressCard />

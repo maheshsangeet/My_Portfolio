@@ -1,10 +1,10 @@
-import React, { components } from 'react';
+import React, { Components } from 'react';
 import './App.css';
-import Contact from './components/Contact/Contact';
-import Education from './components/Education/Education';
-import Experience from "./components/Experience/Experience"
-import Home from "./components/Home/Home"
-import Skills from './components/Skills/Skills';
+import Contact from './Components/Contact/Contact';
+import Education from './Components/Education/Education';
+import Experience from "./Components/Experience/Experience"
+import Home from "./Components/Home/Home"
+import Skills from './Components/Skills/Skills';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';     //scroll library
@@ -22,10 +22,10 @@ function App() {
   return (
     <div className="App">
       <Home />
-      {/* <Experience /> */}
-      {/* <Skills />
+      <Experience />
+      <Skills />
       <Education />
-      <Contact /> */}
+      <Contact />
     </div>
   );
 }
