@@ -1,6 +1,6 @@
 # Mahesh's Portfolio website [React Project]
 
-## Live Preview: [Open Link][preview]
+## Live Preview: [Open Link](https://in0d3.csb.app/)
 
 click here to view  <a href="https://in0d3.csb.app/" > Demo</a>
 
